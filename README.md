@@ -22,7 +22,7 @@ Now that you have an application API instance, you need to fetch an API-token th
 
 You now have an authentication token stored on your computer so you can now use the AGAVE apis in your current application context.
 
-Now you can register storage and execution systems related to the UH HPC with your account so you can use them with this application.  We have provide JSON files that define the systems this template application uses - you simply need to update the USERNAME and PASSWORD credentials to use them. Then you add them to your AGAVE environment as follows.
+Now you can register storage and execution systems related to the UH HPC with your account so you can use them with this application.  We have provide JSON files that define the systems this template application uses - you simply need to update the USERNAME and PASSWORD credentials and your directory username to use them. Then you add them to your AGAVE environment as follows (You only need to to this once for you user and you can then utilize these systems for other apps in the future)
 
 For the UH HPC home directory file system:
 
