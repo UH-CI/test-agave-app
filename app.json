@@ -37,7 +37,7 @@
         },
          "value": {
          	"default": "agave://sftp.storage.uhhpc1.its.hawaii.edu/input1.txt",
-         	"required": true,
+         	"required": false,
          	"visible": true,
          	"validator": null
          }
