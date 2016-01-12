@@ -1,0 +1,45 @@
+{
+  "name": "test-app-0.0.1",
+  "parallelism": "SERIAL",
+  "version": "0.0.1",
+  "label": "Test App",
+  "shortDescription": "Test App",
+  "longDescription": "Test App",
+  "deploymentPath": "/lus/scratch/seanbc/apps/test-app-0.0.1",
+  "deploymentSystem": "sftp.lustre.storage.uhhpc1.its.hawaii.edu",
+  "executionSystem": "sb.execute.uhhpc1.its.hawaii.edu",
+  "executionType": "CLI",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "tags": [
+    "demo"
+  ],
+  "ontology": [
+  ],
+  "inputs": [
+    {
+      "id": "input1",
+      "details": {
+        "label": "Input File",
+        "description": "A test file",
+         "visible":true
+       },
+       "semantics":{
+         "ontology":[],
+         "minCardinality":1,
+         "fileTypes":[
+         "TEXT-0"
+        ]
+        },
+         "value": {
+         	"default": "agave://sftp.storage.uhhpc1.its.hawaii.edu/input1.txt",
+         	"required": true,
+         	"visible": true,
+         	"validator": null
+         }
+    }
+  ],
+  "parameters": [
+    
+  ]
+}
