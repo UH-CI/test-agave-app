@@ -13,12 +13,12 @@ Now that you have the AGAVE account (via iPlant) you can move into actually usin
 
 First you need to create an API application instance to work within. Run the followoing AGAVE CLI command:
 
-> /foundation-cli/bin/clients-create -S -v -N my_cli_app -D "Client app used for scripting up cool stuff" 
+> clients-create -S -v -N my_cli_app -D "Client app used for scripting up cool stuff" 
 
 The command will ask you for an API Username and Password - these are the iPlant username and password you just created (or already had).
 Now that you have an application API instance, you need to fetch an API-token that will authorize the rest of this session (these tokens do expire so you need to do this whenever you want to start a session)
 
-> /foundation-cli/bin/auth-tokens-create -S -v
+> auth-tokens-create -S -v
 
 You now have an authentication token stored on your computer so you can now use the AGAVE apis in your current application context.
 
