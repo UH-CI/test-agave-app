@@ -1,0 +1,1 @@
+This is a test template AGAVE application to run on the UH HPC.
