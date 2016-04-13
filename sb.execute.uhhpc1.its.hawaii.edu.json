@@ -22,7 +22,40 @@
       "maxNodes": 2,
       "maxMemoryPerNode": "120GB",
       "maxProcessorsPerNode": 20,
-      "maxRequestedTime": "00:00:30",
+      "maxRequestedTime": "00:00:59",
+      "customDirectives": null,
+      "default": true
+    },
+    {
+      "name": "community.q",
+      "maxJobs": 25,
+      "maxUserJobs": 5,
+      "maxNodes": 5,
+      "maxMemoryPerNode": "120GB",
+      "maxProcessorsPerNode": 20,
+      "maxRequestedTime": "00:72:00",
+      "customDirectives": null,
+      "default": true
+    },
+    {
+      "name": "exclusive.q",
+      "maxJobs": 25,
+      "maxUserJobs": 5,
+      "maxNodes": 5,
+      "maxMemoryPerNode": "120GB",
+      "maxProcessorsPerNode": 20,
+      "maxRequestedTime": "00:72:00",
+      "customDirectives": null,
+      "default": true
+    },
+    {
+      "name": "kill.q",
+      "maxJobs": 25,
+      "maxUserJobs": 5,
+      "maxNodes": 5,
+      "maxMemoryPerNode": "120GB",
+      "maxProcessorsPerNode": 20,
+      "maxRequestedTime": "00:72:00",
       "customDirectives": null,
       "default": true
     }
