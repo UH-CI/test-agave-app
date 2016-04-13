@@ -22,7 +22,7 @@
       "maxNodes": 2,
       "maxMemoryPerNode": "120GB",
       "maxProcessorsPerNode": 20,
-      "maxRequestedTime": "00:00:59",
+      "maxRequestedTime": "01:00:00",
       "customDirectives": null,
       "default": true
     },
@@ -33,7 +33,7 @@
       "maxNodes": 5,
       "maxMemoryPerNode": "120GB",
       "maxProcessorsPerNode": 20,
-      "maxRequestedTime": "00:72:00",
+      "maxRequestedTime": "72:00:00",
       "customDirectives": null,
       "default": true
     },
@@ -44,7 +44,7 @@
       "maxNodes": 5,
       "maxMemoryPerNode": "120GB",
       "maxProcessorsPerNode": 20,
-      "maxRequestedTime": "00:72:00",
+      "maxRequestedTime": "72:00:00",
       "customDirectives": null,
       "default": true
     },
@@ -55,7 +55,7 @@
       "maxNodes": 5,
       "maxMemoryPerNode": "120GB",
       "maxProcessorsPerNode": 20,
-      "maxRequestedTime": "00:72:00",
+      "maxRequestedTime": "72:00:00",
       "customDirectives": null,
       "default": true
     }
