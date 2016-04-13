@@ -65,7 +65,7 @@
     "port": 22,
     "protocol": "SSH",
     "auth": {
-      "username": "seanbc",
+      "username": "USERNAME",
       "password": "CHANGEME",
       "type": "PASSWORD"
     }
@@ -77,7 +77,7 @@
     "rootDir": "/",
     "homeDir": "/home/seanbc",
     "auth": {
-      "username": "seanbc",
+      "username": "USERNAME",
       "password": "CHANGME",
       "type": "PASSWORD"
     }
